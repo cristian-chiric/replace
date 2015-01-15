@@ -1,6 +1,6 @@
 <?php
 
-namespace FilterService\Filters\Replace;
+namespace Crawler\Filter\Replace;
 
 class TestClass {
 
