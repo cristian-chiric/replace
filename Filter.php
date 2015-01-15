@@ -1,11 +1,11 @@
 <?php
 
-namespace FilterService\Filters\Replace;
+namespace Crawler\Filter;
 
 use FilterService\Core\AbstractFilter;
-use FilterService\Filters\Replace\TestClass;
+use Crawler\Filter\Replace\TestClass;
 
-class Filter extends AbstractFilter {
+class Replace extends AbstractFilter {
 
 	public function apply($params) {
 		return TestClass::test();
