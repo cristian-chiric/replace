@@ -4,7 +4,7 @@ spl_autoload_register(function($class){
    
     $class = ltrim($class, '\\');
     $dir = __DIR__ ;
-    $namespace = 'FilterService\Filters\Replace';
+    $namespace = 'Crawler\Filter';
     
     if(strpos($class, $namespace) === 0)
     {
